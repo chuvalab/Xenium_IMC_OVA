@@ -45,7 +45,10 @@ The analysis was performed using Python and R with open-source packages and stan
 - ComplexHeatmap v2.22.0
 - ggplot2 v3.5.1
 
+### Standalone software
 
+- QuPath v0.5.0
+  
 The full software environment is provided in the environment file included in this repository.
 
 No non-standard hardware is required to inspect or run individual scripts. Running the full Xenium and IMC workflows on the complete datasets requires sufficient memory and storage, and runtime will depend on the local computing environment.
