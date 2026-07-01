@@ -14,9 +14,6 @@ The dataset is currently private during peer review and will become publicly ava
 
 The deposited files include the Xenium cell-feature matrix, cell metadata, transcript coordinates, cell-boundary files and the IMC raw MCD file.
 
-## System requirements
-
-The analysis was performed using Python and R. The main tested software versions were:
 
 ## System requirements
 
@@ -94,4 +91,8 @@ Expected outputs include segmented single-cell IMC data, protein-defined cell cl
 To reproduce the analysis, download the deposited input files from figshare and update the input paths in the scripts to match the local file locations. The scripts are organized according to the main analysis steps, including Xenium preprocessing, cell clustering, immune-cell subclustering, spatial niche analysis, neighborhood analysis, IMC processing and figure generation.
 
 Because the full datasets are large, runtime will vary depending on hardware, memory and storage speed.
+
+## Demo dataset
+
+No separate simulated or small demo dataset is provided. The scripts are intended to be run on the deposited Xenium and IMC datasets described above.
 
